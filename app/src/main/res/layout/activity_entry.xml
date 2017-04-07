@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhumihar.friendchat.EntryActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubmitToolbar"
+        android:background="@color/colorPrimary"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/SubmitToolbar"
+        android:layout_margin="5dp"
+        android:layout_width="@dimen/Textview_Size"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        app:counterOverflowTextAppearance="@color/IndianRed"
+        android:id="@+id/EntryLabel"
+        >
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/entryedit"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/Textview_height"
+        android:layout_height="@dimen/Textview_height"
+        android:layout_below="@+id/SubmitToolbar"
+        android:layout_toRightOf="@+id/EntryLabel"
+        android:background="@color/White"
+        android:src="@drawable/emoji"
+        android:text="Button"
+        android:id="@+id/emojibtn"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:id="@+id/EmojiFrame"
+        android:layout_below="@+id/EntryLabel"
+        >
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmojiFrame"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/cancelbtn"
+            android:background="@color/White"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:background="@color/White"
+            android:id="@+id/savebtn"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

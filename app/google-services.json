@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "730429137066",
+    "firebase_url": "https://friendchat-1e1bf.firebaseio.com",
+    "project_id": "friendchat-1e1bf",
+    "storage_bucket": "friendchat-1e1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730429137066:android:7c4a7eeddc21a436",
+        "android_client_info": {
+          "package_name": "com.example.bhumihar.friendchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730429137066-2be2po7s746gqhg59fuo138di6trjr0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhumihar.friendchat",
+            "certificate_hash": "1085aefe6e1edb143ffcd127544acc3bfd6d7d43"
+          }
+        },
+        {
+          "client_id": "730429137066-5hgfiou9tfm8lfjs68qknv2fr8ev3hmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCarUcPtMTphT2mSo0IB61euxkUa0or8lQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730429137066-5hgfiou9tfm8lfjs68qknv2fr8ev3hmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

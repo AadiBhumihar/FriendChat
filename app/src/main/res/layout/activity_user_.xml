@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhumihar.friendchat.User_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_activity"
+        android:background="@color/colorPrimary"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/profile_pic"
+            />
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:textSize="@dimen/small_Size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/profile_pic"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="2dp"
+            android:divider="@color/LightSkyBlue"
+            android:id="@+id/list_of_messages"
+            android:layout_below="@+id/toolbar_activity"
+            android:layout_marginBottom="16dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/post"
+        android:layout_alignEnd="@+id/list_of_messages"
+        android:layout_alignRight="@+id/list_of_messages"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+</RelativeLayout>

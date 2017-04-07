@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhumihar.friendchat.EmojiActivity">
+
+    <com.rockerhieu.emojicon.EmojiconTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/emojitext"
+        android:maxLines="2"
+        />
+
+    <com.rockerhieu.emojicon.EmojiconEditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emojiedit"
+        android:layout_below="@id/emojitext"
+        android:textColorHint="@color/common_google_signin_btn_text_dark"
+        android:maxLength="160"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emojiframe"
+        android:layout_below="@id/emojiedit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        >
+
+    </FrameLayout>
+
+</RelativeLayout>

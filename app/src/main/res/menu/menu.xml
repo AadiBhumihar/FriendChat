@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:title="@string/btn_sign_out"
+    android:id="@+id/Logout"/>
+<item
+    android:title="Profile"
+    android:id="@+id/profile"/>
+
+<item
+
+     android:title="Name"
+     android:id="@+id/Name_a" />
+
+<item
+    android:title="Photo"
+    android:id="@+id/photopost"/>
+
+
+</menu>

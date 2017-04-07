@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/profile_toolbar"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_alignParentTop="true"
+    >
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/tick"
+        android:layout_gravity="right"
+        android:id="@+id/tickbutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFF" />
+
+</android.support.v7.widget.Toolbar>
